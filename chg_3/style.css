@@ -43,7 +43,8 @@ body {
   margin-bottom: 6rem;
 }
 
-.btn {
+.btn:link,
+.btn:visited {
   font-size: 2rem;
   font-weight: bold;
   display: inline-block;
@@ -53,6 +54,11 @@ body {
   padding: 1rem 2rem;
   background-color: #38cfd9;
   border-radius: 100vmax;
+}
+
+.btn:hover,
+.btn:active{
+  opacity: .75;
 }
 
 body > div {
