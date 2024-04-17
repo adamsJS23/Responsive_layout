@@ -68,3 +68,20 @@ body > div {
 .u-margin-bottom-md{
   margin-bottom: 6rem;
 }
+
+/*  FLEXBOX   */
+ .row{
+  display: flex;
+  padding: 10px 0;
+ }
+
+ .col{
+}
+
+.col + .col{
+  margin-left: 10px;
+ }
+
+ .col h2{
+  margin-bottom: 10px;
+ }
