@@ -1,0 +1,104 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #23424a;
+  padding: 10rem 0;
+}
+
+.header__content {
+  color: white;
+  width: 50%;
+  font-size: 2rem;
+}
+
+
+.header__content-title {
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
+}
+
+.header__content-text {
+  font-size: 2rem;
+  margin-bottom: 6rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  padding: 1rem 2rem;
+  background-color: #38cfd9;
+  border-radius: 100vmax;
+}
+
+.btn:hover,
+.btn:active{
+  opacity: .75;
+}
+
+.u-margin-bottom-md{
+  margin-bottom: 6rem;
+}
+
+/*  FLEXBOX   */
+ .row{
+  display: flex;
+  padding: 10px 0;
+ }
+
+ .col{
+  margin: 6rem 0 6rem;
+}
+
+.col + .col{
+  margin-left: 2rem;
+ }
+
+ .col h2{
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+ }
+
+ .col p{
+  font-size: 2.1rem;
+  text-align: center;
+ }
+
+ .u-color-violet{
+  color: #87629A;
+ }
+
+ .u-color-white{
+  color: #fff;
+ }
+
+ .main-row{
+  background-color: #136C72;
+  color: #fff;
+  text-align: center;
+ }
