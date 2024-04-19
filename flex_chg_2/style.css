@@ -22,7 +22,7 @@ body {
     font-size: 1.3rem;
 }
 
-img {
+img{
     max-width: 100%;
 }
 
@@ -30,6 +30,47 @@ h1 {
     font-size: 3rem;
     margin-top: 0;
 }
+.section-one{
+    padding: 2em 0;
+}
+
+.box-one{
+    color: #3A3A3A;
+    width: 62%;
+}
+
+.box-one__title{
+    font-size: 2.5rem;
+    color: #136C72;
+}
+
+.box-one__text{
+    color: #3A3A3A;
+}
+
+.aside{
+
+    padding: 1em;
+    background-color: #136C72;
+    color: #fff;
+    width: 32%;
+
+    text-align: center;
+}
+
+.aside__box{
+    padding: 0 1rem;
+}
+ 
+.aside__box:not(:last-child)
+{
+    margin-bottom: 3em;
+}
+
+.aside__box-title{
+    font-size: 2.5rem;
+}
+
 
 .container {
     width: 80%;
@@ -65,7 +106,7 @@ h1 {
     width: 62%;
 }
 
-.hero__img {
+.hero_img {
     width: 32%;
     align-self: flex-start;
 }
