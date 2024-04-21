@@ -35,18 +35,16 @@ h1 {
 
 .header {
   background-color: #136c72;
-  /* display: flex; */
   padding: 1em 0;
 }
 
 .nav {
-  /* margin-left: auto; */
   display: flex;
   justify-content: space-between;
   flex: 1;
-  /* width: 100%; */
-
 }
+
+
 
 .logo-img{
   margin-right: 2em;
@@ -61,15 +59,9 @@ h1 {
   gap: 1em;
 }
 
-.nav__item--push-right{
-  margin-left: auto;
+.nav__list--primary{
+  margin:0 auto;
 }
-
-.nav__item + .nav__item{
-  /* margin-left: 1em; */
-}
-
-
 
 .nav__link {
   text-decoration: none;
