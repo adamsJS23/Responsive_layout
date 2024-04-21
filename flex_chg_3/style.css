@@ -43,6 +43,13 @@ h1 {
   /* margin-left: auto; */
   display: flex;
   justify-content: space-between;
+  flex: 1;
+  /* width: 100%; */
+
+}
+
+.logo-img{
+  margin-right: 2em;
 }
 
 .nav__list {
