@@ -21,8 +21,13 @@ img {
 
 .hero {
   background-color: #f3eed9;
-  padding: 12em 0;
+  min-height: 40rem;
+  text-align: center;
+  
+  display: flex;
+  align-items: center;
 }
+
 
 .sub-heading {
   color: #222c2a;
@@ -50,12 +55,6 @@ img {
   font-family: "Playfair display", sans-serif;
   font-weight: 500;
   margin-bottom: 1em;
-}
-
-.hero__text-content {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .section-quality,
