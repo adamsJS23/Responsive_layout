@@ -28,6 +28,7 @@ img {
   color: #222c2a;
   text-transform: uppercase;
   font-size: 1.1em;
+  font-size: clamp(0.7rem, 3vw, 1.1rem);
   font-weight: 300;
   display: block;
   margin-bottom: 1em;
@@ -35,7 +36,8 @@ img {
 
 .heading-primary {
   color: #824936;
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  font-size: clamp(2rem, 5vw, 4rem);
   font-family: "Playfair display", sans-serif;
   font-weight: 700;
   line-height: 1.1;
@@ -44,6 +46,7 @@ img {
 .heading-secondary {
   color: #824936;
   font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
   font-family: "Playfair display", sans-serif;
   font-weight: 500;
   margin-bottom: 1em;
@@ -72,9 +75,10 @@ img {
 }
 
 .container {
-  width: 80%;
-  max-width: 1128px;
+  /* width: 80%;
+  max-width: 1128px; */
   margin: 0 auto;
+  width: min(1128px, 80%);
 }
 
 .row {
@@ -87,11 +91,32 @@ img {
 }
 
 .paragraph {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: clamp(0.7rem, 5vw, 1.5rem);
   font-weight: 400;
   line-height: 1.6;
 }
 
 .u-color-beige {
   color: #f3eed9;
+}
+
+@media only screen and (max-width: 50em) {
+  .row {
+    display: block;
+  }
+
+  .row > * {
+    width: 100%;
+  }
+
+  .row > :first-child {
+    margin-bottom: 4rem;
+  }
+
+  .section-quality,
+  .section-custom,
+  .section-care {
+    padding: 4em 0;
+  }
 }
