@@ -12,6 +12,11 @@
 
 */
 
+:root {
+  --clr-primary: #666eee;
+  --clr-scondary: #eee;
+}
+
 *,
 *::before,
 *::after {
@@ -167,9 +172,8 @@ h1 {
   opacity: 0.75;
 }
 
-@media only screen and (max-width:60em){
-
-  .header .row{
+@media only screen and (max-width: 60em) {
+  .header .row {
     gap: 4rem;
   }
 
@@ -188,9 +192,7 @@ h1 {
 }
 
 @media only screen and (max-width: 34.5em) {
-
-
-  .nav__list{
+  .nav__list {
     justify-content: center;
   }
 }
@@ -201,7 +203,7 @@ h1 {
     gap: 1rem;
   }
 
-  .logo-link{
+  .logo-link {
     text-align: center;
   }
 }
