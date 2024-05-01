@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Final challenge for reponsive layout powered by Kevin Powel"
+    />
+    <meta
+      name="keywords"
+      content="Responsive layout, Flexbox, mobile first strategy,Mobile navigation"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Conquering responsive layout | Final challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container row">
+        <img src="logo.svg" alt="Logo image" class="logo" />
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">contact</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">sign in</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--button">sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container row">
+        <h1 class="heading--primary">
+          Responsive layouts <span>don't have to be a struggle</span>
+        </h1>
+        <div class="hero__content">
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque
+            exercitationem architecto. Veritatis aperiam doloremque dolores.
+          </p>
+          <a href="#" class="hero__button">i want to learn</a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="why-mobile container row">
+        <div class="why-mobile__box">
+          <h3 class="heading--tertiary">Mobile-first</h3>
+          <p class="why-mobile__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+            excepturi, placeat debitis laboriosam repellendus maiores quo
+            quisquam. Similique.
+          </p>
+        </div>
+        <div class="why-mobile__box">
+          <h3 class="heading--tertiary">Efficient</h3>
+          <p class="why-mobile__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+            excepturi, placeat debitis laboriosam repellendus maiores quo
+            quisquam. Similique.
+          </p>
+        </div>
+        <div class="why-mobile__box">
+          <h3 class="heading--tertiary">Done right</h3>
+          <p class="why-mobile__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+            excepturi, placeat debitis laboriosam repellendus maiores quo
+            quisquam. Similique.
+          </p>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="description__main">
+          <div class="h3 heading--tertiary">It doesn't have to be so hard</div>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ex ipsa
+            fugiat ullam possimus similique, vero commodi eius. Minima molestiae
+            dolorem laudantium vitae doloremque saepe ea eius quibusdam
+            consectetur ex.
+          </p>
+          <img
+            src="draft.jpg"
+            alt="Web shetch image"
+            class="description__img"
+          />
+          <p class="description__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            consectetur reprehenderit culpa reiciendis rem corrupti minus odio,
+            debitis incidunt harum vitae sit eaque laboriosam est, officia
+            laudantium tenetur inventore assumenda!
+          </p>
+        </div>
+
+        <aside class="aside">
+          <div class="aside__box">
+            <h3 class="heading--tertiary clr-white">Break it down</h3>
+            <p class="aside__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              magni, ullam neque a quibusdam, veritatis architecto ipsum
+            </p>
+          </div>
+          <div class="aside__box">
+            <h3 class="heading--tertiary clr-white">Work your way up</h3>
+            <p class="aside__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              magni, ullam neque a quibusdam, veritatis architecto ipsum
+            </p>
+          </div>
+          <div class="aside__box">
+            <p class="aside__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              magni, ullam neque a quibusdam, veritatis architecto ipsum
+            </p>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
 </html>
