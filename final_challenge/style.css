@@ -1,6 +1,9 @@
 :root {
   --clr-white: #fff;
-
+  --clr-primary: #a59678;
+  --clr-secondary: #2e323f;
+  --clr-secondary--1: #3b4050;
+  --clr-secondary--2: #6f737f;
 }
 
 *,
@@ -16,12 +19,16 @@ html {
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+
 img {
   max-width: 100%;
 }
 
 .header {
-  background-color: #2e323f;
+  background-color: var(--clr-secondary);
 }
 
 .header__logo {
@@ -49,7 +56,55 @@ img {
   color: var(--clr-white);
 }
 
+.hero{
+  background-color: var(--clr-secondary--1);
+  padding: 6rem 0;
+  line-height: 1.01;
+}
+
+
+.hero__text{
+  font-size: 2.4rem;
+  color: var(--clr-white);
+  margin-bottom: 4rem;
+}
+
+.hero__button{
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+.heading--primary span{
+  color: var(--clr-primary);
+}
+
+.heading--primary {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
 .container {
-  width: min(80%, 1200px);
+  /* width: min(80%, 1200px); */
+  width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  border-radius: 100vmax;
+  padding: 0.2em 1em;
+}
+
+.margin-bottom-small{
+margin-bottom: 4rem;
+}
+.margin-bottom-medium{
+margin-bottom: 6rem;
+}
+.margin-bottom-large{
+margin-bottom: 8rem;
 }
