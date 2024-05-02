@@ -1,13 +1,55 @@
-*,*::before,*::after{
+:root {
+  --clr-white: #fff;
+
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
-html{
+html {
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
-img{
+img {
   max-width: 100%;
+}
+
+.header {
+  background-color: #2e323f;
+}
+
+.header__logo {
+  margin-bottom: 4rem;
+}
+
+.nav {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item + .nav__item {
+  margin-top: 2rem;
+}
+
+.nav__link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+.container {
+  width: min(80%, 1200px);
+  margin: 0 auto;
 }
