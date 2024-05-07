@@ -1,3 +1,4 @@
+/* Challenge completed */
 :root {
   --clr-white: #fff;
   --clr-primary: #a59678;
@@ -70,12 +71,14 @@ img {
   left: 0;
   top: -8px;
 }
+
 .nav {
   visibility: hidden;
   position: absolute;
   height: 0;
 }
 
+/* Add and remove this class using JavaScript And it should appear Last in order to Overwrite .nav */
 .nav--visible {
   visibility: visible;
   position: relative;
@@ -322,17 +325,8 @@ img {
     visibility: hidden;
     position: absolute;
     height: 0;
+    /* display: none; */
   }
-
-  /* .btn-mobile-nav {
-    display: none;
-  }
-
-  .nav {
-    visibility: visible;
-    display: flex;
-    height: auto;
-  } */
 
   /* HEADER */
   .header__logo {
@@ -382,10 +376,10 @@ img {
 
 @media only screen and (min-width: 62.5em) {
   /* HEADER */
-
   .nav__list {
     gap: 6rem;
   }
+
   /* SECTION HERO */
   .hero {
     padding: 12rem 0;
@@ -402,6 +396,7 @@ img {
   .hero__content {
     align-self: flex-end;
   }
+
   /* SECTION DESCRIPTION */
   .description {
     display: flex;
@@ -425,7 +420,6 @@ img {
   }
 
   /* FOOTER */
-
   .footer__content {
     gap: 12rem;
   }
@@ -449,7 +443,6 @@ img {
   }
 
   /* REUSABLE CLASSES */
-
   .row {
     display: flex;
     gap: 2rem;
