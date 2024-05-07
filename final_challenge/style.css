@@ -82,8 +82,6 @@ img {
   height: auto;
 }
 
-
-
 /* ************************************** 
  ***********HEADER********************* */
 
@@ -95,7 +93,7 @@ img {
 }
 
 .header__logo {
- align-self: flex-start;
+  align-self: flex-start;
 }
 
 .nav {
@@ -296,6 +294,21 @@ img {
 }
 
 /* ******************************************** 
+ ***********MEDIA QUERY 540PX**************** */
+@media only screen and (min-width: 33.75em) {
+  /* FOOTER */
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer__nav-box {
+    flex: 0 0 45%;
+  }
+}
+
+/* ******************************************** 
  ***********MEDIA QUERY 700PX**************** */
 @media only screen and (min-width: 43.5em) {
   .nav {
@@ -361,17 +374,6 @@ img {
 
   .aside__box + .aside__box {
     margin-left: 1rem;
-  }
-
-  /* FOOTER */
-  .footer__content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .footer__nav-box {
-    flex: 0 0 45%;
   }
 }
 
